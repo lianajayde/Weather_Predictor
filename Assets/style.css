@@ -32,10 +32,16 @@ body {
 .search-box button:hover{
     color:rgb(206, 158, 224);
     background: rgb(181, 46, 177);
+    cursor: pointer;
 }
 
-.weather {
-    text-align: center;
+
+.previousSearch{
+    padding: 20px 10px;
+}
+
+.previousSearches{
+    padding: 20px 10px;
 }
 
 .weatherDetails {
