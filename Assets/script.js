@@ -65,8 +65,8 @@ fetch(queryURL)
 })
 
 let temperature = document.querySelector('.weatherDetails .current');
-let humidity = document.querySelector('.weatherDetails .humidity');
-let wind = document.querySelector('.weatherDetails .mph');
+let humidity = document.querySelector('.weatherDetails .humidity span');
+let wind = document.querySelector('.weatherDetails .mph span');
 
 
 switch (json.weather[0].main) {
