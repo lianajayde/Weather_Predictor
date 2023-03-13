@@ -43,6 +43,7 @@ let tempFive = document.getElementById('.forecastTemp5');
 let humidityFive = document.getElementById('.forecastHumidity5');
 let mphFive = document.getElementById('.forecastMPH5');
 
+
 // Event listener for search
 search.addEventListener('click', () =>{
 
@@ -67,27 +68,6 @@ fetch(queryURL)
 let temperature = document.querySelector('.weatherDetails .current');
 let humidity = document.querySelector('.weatherDetails .humidity span');
 let wind = document.querySelector('.weatherDetails .mph span');
-
-
-switch (json.weather[0].main) {
-    case 'sun':
-        image.src = 'images/sun.png';
-        break;
-
-    case 'rain':
-        image.src = 'images/rain.png';
-        break;
-    case 'snow':
-        image.src = 'images/snow.png';
-        break;
-    case 'thunderstorm':
-        image.src='thunderstorm.png';
-        break;
-
-    defualt:
-    image.src= '';
-}
-
 
 
 
