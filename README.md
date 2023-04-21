@@ -20,4 +20,3 @@ Helpful websites used..<br>
 # Demo
 <a href="https://lianajayde.github.io/Weather_Predictor/">Weather Predictor Here</a>
 <br>
-<img src="images/screenshot.jpg" alt="screenshot of app">
